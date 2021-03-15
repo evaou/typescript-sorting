@@ -7,9 +7,21 @@
     // "outDir": "./build",
     // "rootDir": "./src",
 
-## Run
+    $ npm init -y
+    $ vim package.json
+    // "scripts": {
+    //   "start:build": "tsc -W",
+    //   "start:run": "nodemon build/index.js",
+    //   "start": "concurrently npm:start:*"
+    // }
 
-    $ tsc
+    // nodemon: execute compiled code
+    // concurrent: run multi script at the same tome
+    $ npm install nodemon concurrently
+
+## Run
 
     // watch and recompile automatically
     $ tsc -W
+
+    $ npm start
