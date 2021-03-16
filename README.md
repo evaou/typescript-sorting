@@ -1,6 +1,10 @@
 # Typescript Sorting
 
-## Config
+## Focus
+
+Apply abstract class
+
+## Setup
 
     $ tsc --init
     $ vim tsconfig.json
